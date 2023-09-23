@@ -1,0 +1,37 @@
+mrunalgavali09@nyc-taxi-data-engineering-project-mrunal:~$ sudo apt-get install update
+
+mrunalgavali09@nyc-taxi-data-engineering-project-mrunal:~$ sudo apt-get install python3-distutils
+
+mrunalgavali09@nyc-taxi-data-engineering-project-mrunal:~$ sudo apt-get install python3-apt
+
+
+mrunalgavali09@nyc-taxi-data-engineering-project-mrunal:~$ sudo apt-get install wget
+
+wget https://bootstrap.pypa.io/get-pip.py
+
+
+mrunalgavali09@nyc-taxi-data-engineering-project-mrunal:~$ sudo python3 get-pip.py
+
+
+# Install Mage
+sudo pip3 install mage-ai
+
+# Install Pandas
+sudo pip3 install pandas
+
+
+
+mrunalgavali09@nyc-taxi-data-engineering-project-mrunal:~$  mage start nyc_taxi_de_project
+
+
+Checking port 6789...
+INFO:mage_ai.server.server:Mage is running at http://localhost:6789 and serving project /home/mrunalgavali09/nyc_taxi_de_project
+
+
+
+
+# Install Google Cloud Library
+
+mrunalgavali09@nyc-taxi-data-engineering-project-mrunal:~$  sudo pip3 install google-cloud
+
+mrunalgavali09@nyc-taxi-data-engineering-project-mrunal:~$   sudo pip3 install google-cloud-bigquery
